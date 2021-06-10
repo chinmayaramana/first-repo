@@ -1,0 +1,32 @@
+/*
+mobile green
+tab blue
+lap red
+pc brown
+
+mobile first approch
+
+these are some of old Boot Strap,, uses this standard format....Talwind uses different approch 
+mobile o-767px
+tablet 768px
+lap 1020px
+other 1400px
+
+
+
+*/
+body{
+    background-color: green;
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: blue;
+    }
+}
+@media (min-width: 1400px){
+    body{
+        background-color: whitesmoke;
+    }
+} 
+    
